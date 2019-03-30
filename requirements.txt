@@ -1,0 +1,4 @@
+#requirements.txt
+Django==2.1.7
+djangorestframework==3.9.2
+gunicorn==19.6.0
