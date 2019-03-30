@@ -1,27 +1,30 @@
 # Docker
-## Run App using Docker:
+## Run App using Docker
 sudo docker build -t polestar .
+
 sudo docker run -p 8000:8000 -i -t polestar
 
 ######################
 # Tools Version
-## Python 3.7 is used
-## Framework: Django version 2.1.7
-## Database: SQLite
+Python 3.7 is used
+
+Framework: Django version 2.1.7
+
+Database: SQLite
 
 ######################
 # Index Page
 ## To Check index.html (Map with all the 3 ships tracking points)
-http://127.0.0.1:8000/
-
+## http://127.0.0.1:8000/
+##
 ######################
 # Admin
 ## Admin Login
 ## Manage Ships, Positions
-http://127.0.0.1:8000/admin/
-User: admin
-Pass: 13579!!!
-
+## http://127.0.0.1:8000/admin/
+## User: admin
+## Pass: 13579!!!
+##
 ######################
 # Prerequisites
 pip install djangorestframework
